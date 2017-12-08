@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f803ac10-7c17-4b57-88da-45bcd6bef067</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>Clara_Web_Project</Name>
+    <RootNamespace>Clara_Web_Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="Clara_Web_Project\__init__.py" />
+    <Compile Include="Clara_Web_Project\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clara_Web_Project\" />
+    <Folder Include="Clara_Web_Project\static\" />
+    <Folder Include="Clara_Web_Project\static\content\" />
+    <Folder Include="Clara_Web_Project\static\First\" />
+    <Folder Include="Clara_Web_Project\static\First\css\" />
+    <Folder Include="Clara_Web_Project\static\First\img\" />
+    <Folder Include="Clara_Web_Project\static\First\img\about\" />
+    <Folder Include="Clara_Web_Project\static\First\img\logos\" />
+    <Folder Include="Clara_Web_Project\static\First\img\portfolio\" />
+    <Folder Include="Clara_Web_Project\static\First\img\team\" />
+    <Folder Include="Clara_Web_Project\static\First\js\" />
+    <Folder Include="Clara_Web_Project\static\First\mail\" />
+    <Folder Include="Clara_Web_Project\static\First\scss\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\bootstrap\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\bootstrap\css\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\bootstrap\js\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\font-awesome\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\font-awesome\css\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\font-awesome\less\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\jquery-easing\" />
+    <Folder Include="Clara_Web_Project\static\First\vendor\jquery\" />
+    <Folder Include="Clara_Web_Project\static\fonts\" />
+    <Folder Include="Clara_Web_Project\static\scripts\" />
+    <Folder Include="Clara_Web_Project\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Clara_Web_Project\static\First\.gitignore" />
+    <Content Include="Clara_Web_Project\static\First\.travis.yml" />
+    <Content Include="Clara_Web_Project\static\First\css\agency.css" />
+    <Content Include="Clara_Web_Project\static\First\css\agency.min.css" />
+    <Content Include="Clara_Web_Project\static\First\gulpfile.js" />
+    <Content Include="Clara_Web_Project\static\First\img\about\1.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\about\2.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\about\3.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\about\4.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\header-bg.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\logos\creative-market.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\logos\designmodo.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\logos\envato.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\logos\themeforest.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\map-image.png" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\01-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\01-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\02-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\02-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\03-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\03-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\04-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\04-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\05-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\05-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\06-full.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\portfolio\06-thumbnail.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\team\1.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\team\2.jpg" />
+    <Content Include="Clara_Web_Project\static\First\img\team\3.jpg" />
+    <Content Include="Clara_Web_Project\templates\main.html" />
+    <Content Include="Clara_Web_Project\static\First\js\agency.js" />
+    <Content Include="Clara_Web_Project\static\First\js\agency.min.js" />
+    <Content Include="Clara_Web_Project\static\First\js\contact_me.js" />
+    <Content Include="Clara_Web_Project\static\First\js\jqBootstrapValidation.js" />
+    <Content Include="Clara_Web_Project\static\First\LICENSE" />
+    <Content Include="Clara_Web_Project\static\First\mail\contact_me.php" />
+    <Content Include="Clara_Web_Project\static\First\package-lock.json" />
+    <Content Include="Clara_Web_Project\static\First\package.json" />
+    <Content Include="Clara_Web_Project\static\First\README.md" />
+    <Content Include="Clara_Web_Project\static\First\scss\agency.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_contact.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_footer.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_global.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_masthead.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_mixins.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_navbar.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_portfolio.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_services.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_team.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_timeline.scss" />
+    <Content Include="Clara_Web_Project\static\First\scss\_variables.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\animated.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\core.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\icons.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\larger.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\list.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\path.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\less\variables.less" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Clara_Web_Project\static\First\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\jquery\jquery.js" />
+    <Content Include="Clara_Web_Project\static\First\vendor\jquery\jquery.min.js" />
+    <Content Include="requirements.txt" />
+    <Content Include="Clara_Web_Project\static\content\bootstrap.css" />
+    <Content Include="Clara_Web_Project\static\content\bootstrap.min.css" />
+    <Content Include="Clara_Web_Project\static\content\site.css" />
+    <Content Include="Clara_Web_Project\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Clara_Web_Project\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Clara_Web_Project\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Clara_Web_Project\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Clara_Web_Project\static\scripts\bootstrap.js" />
+    <Content Include="Clara_Web_Project\static\scripts\bootstrap.min.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery-1.10.2.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery.validate.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery.validate.min.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Clara_Web_Project\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Clara_Web_Project\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="Clara_Web_Project\static\scripts\respond.js" />
+    <Content Include="Clara_Web_Project\static\scripts\respond.min.js" />
+    <Content Include="Clara_Web_Project\static\scripts\_references.js" />
+    <Content Include="Clara_Web_Project\templates\about.html" />
+    <Content Include="Clara_Web_Project\templates\contact.html" />
+    <Content Include="Clara_Web_Project\templates\index.html" />
+    <Content Include="Clara_Web_Project\templates\layout.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
